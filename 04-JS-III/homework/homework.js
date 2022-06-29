@@ -96,8 +96,8 @@ function promedioResultadosTest(resultadosTest) {
   // "resultadosTest" debe ser una matriz de enteros (int/integers)
   // Itera (en un bucle) los elementos del array, calcula y devuelve el promedio de puntajes
   // Tu código:
-  
-} 
+  return agregarNumeros(resultadosTest) / resultadosTest.length
+  }
 
 
 function numeroMasGrande(numeros) {
@@ -118,8 +118,16 @@ function numeroMasGrande(numeros) {
 function multiplicarArgumentos() {
   // Usa la palabra clave `arguments` para multiplicar todos los argumentos y devolver el producto
   // Si no se pasan argumentos devuelve 0. Si se pasa un argumento, simplemente devuélvelo
-  // Escribe tu código aquí:
+  // Escribe tu código aquí: 
+  if( arguments.length < 1 ){
+  return 0
+  }
+  var total = 1
+  for( var i = 0 ; i < arguments.length ; i++ ) {
+    total = total * arguments[i]
+  } return total
 }
+
 
 
 function cuentoElementos(arreglo){
@@ -210,7 +218,23 @@ function breakStatement(numero) {
   //Si en algún momento el valor de la suma y la cantidad de iteraciones coinciden, debe interrumpirse la ejecución y 
   //devolver: "Se interrumpió la ejecución"
   //Pista: usá el statement 'break'
-  // Tu código:
+  // Tu código: 
+  var array = []
+  var suma = numero
+  for ( var i = 0; i < 10 ; i++ ) {
+    suma = suma + 2;
+    if (suma === i ) {
+      break
+    } else {
+      array.push(suma)
+    }
+  }
+  if(i < 10) {
+    return 'Se interrumpió la ejecución'
+  } else {
+      return array
+  }
+
 }
 
 
@@ -221,9 +245,17 @@ function continueStatement(numero) {
   //Cuando el número de iteraciones alcance el valor 5, no se suma en ese caso y se continua con la siguiente iteración
   //Pista: usá el statement 'continue'
   // Tu código:
+  var array = []
+  var suma = numero
+  for ( var i = 0 ; i < 10 ; i++ ) {
+    if ( i === 5 ) continue
+    else {
+      suma = suma + 2
+      array.push(suma)
+    }
+  }
+  return array
 }
-
-
 // No modificar nada debajo de esta línea
 // --------------------------------
 
