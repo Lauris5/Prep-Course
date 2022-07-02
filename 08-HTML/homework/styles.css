@@ -1,0 +1,58 @@
+    h1 {
+        position: relative;
+        font-family: Calibri;
+        color: rgba(165, 42, 42, 0.658);
+        -webkit-text-stroke: 1.5px rgb(202, 45, 45);
+        font-size: 60px;
+        text-align: center;
+        display: center;
+    }
+    h3 {
+        position: relative;
+        font-family: Tahoma;
+        color: black;
+        -webkit-text-stroke: 1.5px yellow;
+        font-size: 50px;
+        text-align: center;
+        display: center;
+    }
+    h4 {
+        position: relative;
+        font-family: Calibri;
+        color: rgba(71, 170, 13, 0.658);
+        -webkit-text-stroke: 1.5px rgb(125, 231, 148);
+        font-size: 40px;
+        text-align: center;
+        display: center;
+    }
+    img {
+        position: relative;
+        width: 400px;
+        text-align: center;
+        display: center;
+    } 
+    #thirdDiv {
+        padding: 50px;
+        border: 4px groove rgba(255, 174, 0, 0.658);
+        margin-left: auto;
+        margin-right: auto; 
+        display: center;
+        width: 500px;
+        height: 600px;
+    }
+    #spanId {
+        font-size: 18px;
+        font-family: Calibri;
+        color: rgb(255, 94, 0);
+        margin: 50px;
+        text-align: center;
+        -webkit-text-stroke: 1px rgb(231, 131, 0);
+        display: center;
+    }
+    div {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        display: center;
+    }
+   
