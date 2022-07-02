@@ -19,7 +19,7 @@
     h4 {
         position: relative;
         font-family: Calibri;
-        color: rgba(71, 170, 13, 0.658);
+        color: rgba(71, 170, 13, 0.74);
         -webkit-text-stroke: 1.5px rgb(125, 231, 148);
         font-size: 40px;
         text-align: center;
@@ -46,7 +46,7 @@
         color: rgb(255, 94, 0);
         margin: 50px;
         text-align: center;
-        -webkit-text-stroke: 1px rgb(231, 131, 0);
+        -webkit-text-stroke: 1px rgb(253, 145, 4);
         display: center;
     }
     div {
